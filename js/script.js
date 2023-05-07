@@ -221,16 +221,16 @@ $('.counter').counterUp({
 /*================================================================= 
     Progress bar animation
 ==================================================================*/
-var waypoint = new Waypoint({
-  element: document.getElementById('skill-section'),
-  handler: function() {
-    $('.progress .progress-bar').css("width",function() {
-      return $(this).attr("aria-valuenow") + "%";
-  })
-  },
-  //offset: 'bottom-in-view',
-  offset: 700,
-})
+// var waypoint = new Waypoint({
+//   element: document.getElementById('skill-section'),
+//   handler: function() {
+//     $('.progress .progress-bar').css("width",function() {
+//       return $(this).attr("aria-valuenow") + "%";
+//   })
+//   },
+//   //offset: 'bottom-in-view',
+//   offset: 700,
+// })
 
 
 /*================================================================= 

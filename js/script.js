@@ -242,8 +242,18 @@ AOS.init({
 
 
 $("#portfolio-section .icon-box").click(function () {
-  var closestModal = $(this).next(".modal");
-  closestModal.modal("show");
+  var Modal = $(this).next(".modal");
+  Modal.modal("show");
+
+  // Get all images inside the modal
+
+  var images = Modal.find('img');
+    // Loop through each image
+    images.each(function() {
+      let src = $(this).attr('data-src');
+    $(this).attr('src',src);
+  });
+  
 });
 
 })(jQuery);

@@ -1,6 +1,68 @@
-.about-img-2{
-    width: 300px;
-    height: 345px;
+.about-img-2 {
+    width: 18.75rem;
+    height: 21.5625rem;
     object-fit: cover;
     object-position: center;
+}
+
+.carousel-item img {
+    height: 25rem !important;
+    object-fit: contain;
+    object-position: center;
+    display: block !important;
+    margin: auto !important;
+}
+
+.portfolio-section .carousel-item {
+    width: 100%;
+    height: 25rem;
+}
+
+.portfolio-section .carousel-caption,
+.bg-gray {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.portfolio-section .carousel-caption * {
+    color: white;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    filter: invert(100%);
+}
+
+
+.portfolio-section .carousel-inner {
+    background: rgba(0, 0, 0, .1);
+
+}
+
+.skill-badge {
+    color: black !important;
+    font-weight: 300 !important;
+    background-color: #d5e0d5 !important;
+    cursor: pointer;
+}
+
+.skill-badge:hover {
+    background-color: #b9c0b9 !important;
+}
+
+.profile-fluid-img {
+    height: 28.4082rem;
+}
+
+.profile-fluid-img {
+    height: 22.7266rem !important;
+    object-fit: cover;
+    width: 100%;
+}
+
+@media (min-width:36.25rem) {
+
+    .profile-fluid-img {
+        height: 28.4082rem !important;
+    }
+
 }

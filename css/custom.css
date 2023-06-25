@@ -65,4 +65,14 @@
         height: 28.4082rem !important;
     }
 
+    
+
 }
+@media (max-width:36.25rem) {
+    section.hero-area .link-group {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+}
+

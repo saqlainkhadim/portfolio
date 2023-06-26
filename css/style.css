@@ -752,9 +752,12 @@ h6 {
   top: auto;
   bottom: -50%;
 }
-.portfolio-section .box img {
+.portfolio-section .box > img {
   width: 100%;
   height: auto;
+  min-height: 236.891px;
+  object-fit: cover;
+  object-position: center;
 }
 .portfolio-section .box .box-content {
   color: #fff;

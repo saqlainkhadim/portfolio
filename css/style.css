@@ -755,7 +755,7 @@ h6 {
 .portfolio-section .box > img {
   width: 100%;
   height: auto;
-  min-height: 236.891px;
+  height: 236.891px;
   object-fit: cover;
   object-position: center;
 }

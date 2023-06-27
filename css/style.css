@@ -870,6 +870,7 @@ h6 {
 .portfolio-section .content-wrapper .item-title {
   font-size: 36px;
   margin-bottom: 24px;
+  line-height: 1.5;
 }
 .portfolio-section .modal-body {
   padding: 36px 36px 12px;

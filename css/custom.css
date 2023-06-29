@@ -49,9 +49,6 @@
     background-color: #b9c0b9 !important;
 }
 
-.profile-fluid-img {
-    height: 28.4082rem;
-}
 
 .profile-fluid-img {
     height: 22.7266rem !important;
@@ -73,7 +70,11 @@ section.skills-section .section-title {
     margin-bottom: 2rem;
 }
 
-@media (max-width:36.25rem) {
+.hero-area .hero-content > div{
+    margin: 5.625rem auto auto auto;
+}
+
+@media (max-width:47.9375rem) {
     section.hero-area .link-group {
         display: flex;
         justify-content: space-around;
@@ -135,21 +136,67 @@ section.skills-section .section-title {
     .modal .btn-close i::before{
         vertical-align: top;
     }
+    
+
+}
+@media ((max-width: 47.9375rem)) {
+    .hero-area ul.fun-facts {
+        position: absolute;
+        transform: none;
+        margin-left: auto;
+        margin-right: auto;
+        width: 8.125rem;
+    }
+    .hero-area ul.fun-facts li{
+        height: 2.5rem;
+        border-radius: .3125rem;
+        padding: .625rem;
+    }
+    .hero-area ul.fun-facts li span{
+        
+        font-size: 1.0625rem;
+        vertical-align: top;
+    }
+    .hero-area ul.fun-facts li h3{
+        font-size: .5rem;
+        text-align: left;
+        margin-left: 3.0625rem;
+    }
+    .hero-area ul.fun-facts li:after{            
+        top: -1.0625rem;
+        left: -3.4375rem;
+
+    }
 }
 
-@media (min-width: 36.3125rem) and (max-width: 56.1875rem) {
+@media (min-width: 36.3125rem) {
     .portfolio-section  div.row > div  h2.item-title{
         font-size: 1.5rem;
         margin-bottom:.75rem;
     }
+    .profile-fluid-img {        
+        height: 28.4082rem !important;
+    }
 }
 
+/* for large screens */
 @media (min-width:56.25rem) {
 
     .profile-fluid-img {
-        height: 28.4082rem !important;
+        height: 30.4082rem !important;
     }
     .portfolio-section .box > img {
         height: 12.5rem ;
+    }
+    .portfolio-section  div.row > div  h2.item-title{
+        font-size: 2.25rem;
+        margin-bottom:1.5rem;
+    }
+}
+
+/* for Extra large screens */
+@media(min-width:87.4375rem){
+    .profile-fluid-img {
+        height: 33.4082rem !important;
     }
 }

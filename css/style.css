@@ -328,7 +328,7 @@ h6 {
   color: #fff;
 }
 .hero-area .hero-content {
-  min-height: 100vh;
+  /* min-height: 100vh; */
   position: relative;
 }
 .hero-area .hero-content > .row {
@@ -1888,8 +1888,7 @@ h6 {
     width: auto;
   }
   .hero-area .content-block {
-    padding-top: 180px;
-    padding-bottom: 80px;
+    padding-top: 100px;
   }
   .hero-area .content-block h1 {
     font-size: 60px;
@@ -2063,8 +2062,8 @@ h6 {
     padding-bottom: 72px;
   }
   .hero-area .content-block {
-    padding-top: 120px;
-    padding-bottom: 60px;
+    padding-top: 70px;
+    padding-bottom: 30px;
   }
   .hero-area .content-block h1 {
     font-size: 48px;

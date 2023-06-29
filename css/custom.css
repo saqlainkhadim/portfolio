@@ -59,15 +59,20 @@
     width: 100%;
 }
 
-@media (min-width:36.25rem) {
 
-    .profile-fluid-img {
-        height: 28.4082rem !important;
-    }
-
-    
-
+.modal .btn-close{
+    top: .25rem;
+    right: .6875rem;
 }
+
+section.skills-section .container .row div li {
+    list-style-type: disc;
+}
+
+section.skills-section .section-title {
+    margin-bottom: 2rem;
+}
+
 @media (max-width:36.25rem) {
     section.hero-area .link-group {
         display: flex;
@@ -132,10 +137,19 @@
     }
 }
 
-section.skills-section .container .row div li {
-    list-style-type: disc;
+@media (min-width: 36.3125rem) and (max-width: 56.1875rem) {
+    .portfolio-section  div.row > div  h2.item-title{
+        font-size: 1.5rem;
+        margin-bottom:.75rem;
+    }
 }
 
-section.skills-section .section-title {
-    margin-bottom: 2rem;
+@media (min-width:56.25rem) {
+
+    .profile-fluid-img {
+        height: 28.4082rem !important;
+    }
+    .portfolio-section .box > img {
+        height: 12.5rem ;
+    }
 }

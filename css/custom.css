@@ -74,5 +74,68 @@
         justify-content: space-around;
         align-items: center;
     }
+
+    section.skills-section .container .row div:not(:first-child) {
+        margin-top: 1rem;
+    }
+
+    .section-title {
+        margin-bottom: 1rem;
+
+    }
+
+    .portfolio-section .box .title,
+    .portfolio-section .box .category {
+        display: block;
+        font-size: .625rem;
+        opacity: 1;
+
+    }
+
+    .portfolio-section .box>img {
+        height: 7.375rem;
+    }
+    .portfolio-section .box{
+        background-color: transparent;
+    }
+    .portfolio-section .box .box-content {
+        opacity: 1;
+        background: rgba(128, 128, 128, 0.153);
+        position: relative;
+        padding: .3125rem 0;
+
+    }
+    .portfolio-section  div.row > div  h2.item-title{
+        font-size: 1.125rem;
+        margin-bottom: 0rem;
+    }
+    .portfolio-section .box .box-content .category
+    {
+        display: none;
+    }
+
+    .portfolio-section .box {
+        position: relative;
+    }
+
+    .portfolio-section .box .box-content * {
+        color: black;
+    }
+    .modal .btn-close{
+        top: .25rem;
+        right: .6875rem;
+        height: 1.25rem;
+        width: 1.25rem;
+    }
+    .modal .btn-close i::before{
+        vertical-align: top;
+    }
 }
 
+section.skills-section .container .row div li {
+    list-style-type: disc;
+}
+
+section.skills-section .section-title {
+    margin-bottom: 2rem;
+}

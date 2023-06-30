@@ -1726,7 +1726,8 @@ h6 {
 /* max-width: 1599px and min-width:1200px */
 @media (max-width: 1599px) and (min-width: 1200px) {
   .hero-area .hero-content {
-    height: 920px;
+    /* height: 920px; */
+    padding-bottom: 50px;
   }
   .hero-area .signature-img {
     right: 0;
@@ -1998,7 +1999,9 @@ h6 {
 /* max-width: 1199px and min-width:992px */
 @media (max-width: 1199px) and (min-width: 992px) {
   .hero-area .hero-content {
-    height: 1120px;
+    /* height: 1120px; */
+    
+    padding-bottom: 50px;
   }
   .blog-section .post-group h3 {
     line-height: 1.2;

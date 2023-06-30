@@ -74,7 +74,7 @@ section.skills-section .section-title {
     margin: 5.625rem auto auto auto;
 }
 
-@media (max-width:47.9375rem) {
+@media (max-width: 47.9375rem) {
     section.hero-area .link-group {
         display: flex;
         justify-content: space-around;
@@ -139,7 +139,7 @@ section.skills-section .section-title {
     
 
 }
-@media ((max-width: 47.9375rem)) {
+@media (max-width: 47.9375rem) {
     .hero-area ul.fun-facts {
         position: absolute;
         transform: none;
@@ -166,6 +166,9 @@ section.skills-section .section-title {
         top: -1.0625rem;
         left: -3.4375rem;
 
+    }
+    .text-sm-14{
+        font-size: .875rem;
     }
 }
 

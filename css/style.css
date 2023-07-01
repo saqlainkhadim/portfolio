@@ -2506,3 +2506,7 @@ h6 {
     display: flex;
   }
 }
+
+.very-light-blue-background{
+  background: #f2f5fb;
+}

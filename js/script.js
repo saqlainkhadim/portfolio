@@ -141,9 +141,13 @@ $(document).ready(function () {
     function scroll() {
         if ($(window).scrollTop() >= origOffsetY) {
             $('.site-header nav').addClass('fixed-top');
+            $('#whatsapp-chat').removeClass('d-none');
+
             
         } else {
             $('.site-header nav').removeClass('fixed-top');
+            $('#whatsapp-chat').addClass('d-none');
+
            
         }
     }

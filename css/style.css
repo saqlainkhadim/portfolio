@@ -1549,8 +1549,10 @@ h6 {
   background-color: #1a2540;
   background: url('../image/footer-bg.jpg') no-repeat center center;
   background-size: cover;
-  padding-top: 90px;
-  padding-bottom: 60px;
+  /* padding-top: 90px;
+  padding-bottom: 60px; */
+  padding-top: 30px;
+  padding-bottom: 30px;
   position: relative;
   z-index: 1;
 }
@@ -1584,14 +1586,15 @@ h6 {
   box-shadow: none;
 }
 .site-footer .footer-brand {
-  margin-bottom: 36px;
+  /* margin-bottom: 36px; */
+  margin-bottom: 16px;
   display: inline-block;
 }
 .site-footer .footer-brand img {
   width: 148px;
 }
 .site-footer .footer-social {
-  margin-top: 48px;
+  /* margin-top: 48px; */
 }
 .site-footer .footer-social li {
   margin-right: 24px;
@@ -1611,7 +1614,8 @@ h6 {
 }
 .site-footer .back-to-top {
   position: absolute;
-  top: -120px;
+  /* top: -120px; */
+  top: -60px;
   right: var(--bs-gutter-x, 0.75rem);
 }
 .site-footer .back-to-top a {
@@ -1627,7 +1631,8 @@ h6 {
   display: inline-block;
 }
 .site-footer .footer-bottom {
-  margin-top: 78px;
+  /* margin-top: 78px; */
+  margin-top: 30px;
 }
 .site-footer .footer-bottom p {
   font-size: 16px;

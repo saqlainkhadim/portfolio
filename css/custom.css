@@ -74,7 +74,43 @@ section.skills-section .section-title {
     margin: 5.625rem auto auto auto;
 }
 
-@media (max-width: 47.9375rem) {
+#whatsapp-chat-button{
+    
+    border: none;
+    outline: none;
+    border-radius: 60px;
+    color: white;
+    font-size: 18px;
+    background: transparent;
+    cursor: pointer;
+}
+
+#whatsapp-chat-button:hover{
+    background: rgba(0, 230, 121);
+}
+.list-inline.footer-social a{
+    color: white;
+}
+.list-inline.footer-social a:hover {
+    color: #5a7ffb;
+    transform: translateY(-5px);
+}
+.list-inline.footer-social  .list-inline-item {
+    margin-right: 1.5rem;
+}
+@media (min-height: 120vh) {
+    #whatsapp-chat {
+        display: block;
+    }
+}
+
+
+@media (max-width: 47.9375rem) {    
+
+    #whatsapp-chat-button{
+        color: black;
+    }
+
     section.hero-area .link-group {
         display: flex;
         justify-content: space-around;
